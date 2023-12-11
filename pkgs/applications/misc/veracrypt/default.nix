@@ -17,7 +17,7 @@
 
 stdenv.mkDerivation rec {
   pname = "veracrypt";
-  version = "1.25.9";
+  version = "1.26.7";
 
   src = fetchurl {
     url = "https://launchpad.net/${pname}/trunk/${lib.toLower version}/+download/VeraCrypt_${version}_Source.tar.bz2";
